@@ -1,0 +1,9 @@
+module CGLFW [system] {
+	header "/usr/local/include/GLFW/glfw3.h"
+	link "glfw3"
+	link framework "Cocoa"
+  	link framework "OpenGL"
+  	link framework "IOKit"
+  	link framework "CoreVideo"
+	export *
+}
